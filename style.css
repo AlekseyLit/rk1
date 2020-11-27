@@ -95,5 +95,20 @@ p{
 ol {
 	margin-left:50px;
 }
+.gray{
+	background-color:lightgray;
+	
+}
+.bold{
+	font-weight:bold;
+}
 
+
+
+/*правила игры*/
+
+ul{
+	margin-left:50px;
+	list-style: square;
+}	
 
