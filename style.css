@@ -29,7 +29,9 @@ nav ul li{
 
 
 /*Вход в игру*/
-.color{
+
+
+.color{   /*меняем оформление кнопки*/
 	background-color:hsla(200,100%,50%,0.2);
 	border:1px solid blue;
 }	
@@ -60,7 +62,7 @@ fieldset div input{
 	
 }
 legend{
-	color:blue;
+	color:blue; /*меняем оформление формы*/
 	font-weight:bold;
 }	
 label{
@@ -74,3 +76,24 @@ label{
 	padding:5px;
 	margin-left:50px;
 }
+
+
+
+
+
+/*описание игры*/
+h2{
+	margin-left:50px;
+	color:blue;
+}
+p{
+	width:1000px;
+	text-align:justify;
+	margin-left:50px;
+}
+
+ol {
+	margin-left:50px;
+}
+
+
