@@ -23,3 +23,54 @@ nav ul li{
 	display:inline-block;
 	margin-right:50px;
 }
+
+
+
+
+
+/*Вход в игру*/
+.color{
+	background-color:hsla(200,100%,50%,0.2);
+	border:1px solid blue;
+}	
+.margin{
+	margin-left:30px;
+}	
+.margin:hover{ /*кнопка меняет цвет*/
+	color:red;
+	transition:1s;
+}
+fieldset{
+	width:350px;
+	background-color:hsla(200,100%,50%,0.1);
+	border:2px dotted lightblue;
+	margin-bottom:40px;
+	margin-left:50px;
+}	
+fieldset:hover{  /*поле для форм меняет цвет*/
+	transition:1s;
+	background-color:hsla(100,100%,60%,0.1);
+	border:2px dotted yellowgreen;
+}	
+fieldset div{
+	margin-bottom:30px;
+}
+fieldset div input{
+	float:right;
+	
+}
+legend{
+	color:blue;
+	font-weight:bold;
+}	
+label{
+	color:gray;
+	font-weight:bold;
+}	
+.button{				
+	background-color:hsla(200,100%,50%,0.2);
+	border:1px solid blue;
+	text-decoration:none;
+	padding:5px;
+	margin-left:50px;
+}
