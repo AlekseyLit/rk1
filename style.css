@@ -1,0 +1,18 @@
+header{
+	height:200px;
+	background-image:url(media/ozon.jpg);
+	background-repeat:repeat-x;
+}
+@keyframes h1Animation { 				/*Анимация*/
+	from {left:-500px;color:hsla(200,100%,50%,0.1); }
+	to   {left: 50px ; color:blue;}
+}
+h1{
+	position:relative;
+	color:blue;
+	font-size:40px;
+	text-align:center;
+	margin-top:0;
+	animation-name:h1Animation; /*Анимация*/
+	animation-duration:9s;
+}
