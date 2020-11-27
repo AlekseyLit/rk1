@@ -16,3 +16,10 @@ h1{
 	animation-name:h1Animation; /*Анимация*/
 	animation-duration:9s;
 }
+
+
+
+nav ul li{
+	display:inline-block;
+	margin-right:50px;
+}
