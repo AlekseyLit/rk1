@@ -121,6 +121,8 @@ ul{
 	margin-bottom:30px;
 	border:5px solid lightblue;
 }
-
-
+#gallery img:hover{                         /* 2D- трансформация №2, увеличение в 1.5 раза по осям ОХ и ОУ*/
+	transform:scale(1.5,1.5);
+	transition: all 2s ease-out;
+}
 
