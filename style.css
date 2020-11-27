@@ -112,3 +112,15 @@ ul{
 	list-style: square;
 }	
 
+
+/*Галерея*/
+#gallery img{
+	width:350px;
+	height:270px;
+	margin-left:50px;
+	margin-bottom:30px;
+	border:5px solid lightblue;
+}
+
+
+
